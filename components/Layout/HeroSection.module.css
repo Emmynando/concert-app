@@ -1,0 +1,126 @@
+.hero {
+  background-size: 100vw 20rem;
+  height: 20rem;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  left: 50%;
+  top: 50%;
+  margin-left: -20vw;
+  margin-top: -5rem;
+  width: 40vw;
+}
+
+.hero-text h2 {
+  word-break: break-word;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  mix-blend-mode: multiply;
+}
+
+.titlez {
+  color: rgb(247, 139, 100);
+  font-family: var(--pri-text);
+  font-weight: bolder;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.hero-info {
+  background-color: rgb(247, 139, 100);
+  padding: 0.5rem;
+  width: 20%;
+}
+
+.h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.h4:last-child .datez {
+  margin-bottom: 10rem;
+}
+.datez,
+.timez,
+.venuez {
+  background-color: black;
+  overflow: visible;
+  padding: 0.2rem;
+  white-space: nowrap;
+}
+
+.timez {
+  margin-left: 0.5rem;
+}
+.venuez {
+  margin-left: 1rem;
+}
+
+.h3 {
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+  white-space: nowrap;
+  height: 1.8rem;
+  width: 8rem;
+  margin-left: -2rem;
+  padding-left: 0.2rem;
+}
+
+.hero-info {
+  width: 25%;
+}
+.h3 img {
+  display: inline-block;
+  position: relative;
+  bottom: -5px;
+}
+
+@media (width <= 768px) {
+  .hero-text {
+    left: 25%;
+    top: 50%;
+    margin-left: -20vw;
+    margin-top: -5rem;
+    width: 80vw;
+  }
+
+  .titlez {
+    font-size: 2rem;
+    width: 70%;
+  }
+  .h4 {
+    margin-bottom: 0.3rem;
+  }
+  .h3 {
+    font-size: 12px;
+    height: 1.8rem;
+    width: 6rem;
+    margin-left: -1rem;
+    padding-left: 0.1rem;
+  }
+
+  .timez,
+  .venuez .datez {
+    font-size: 12px;
+  }
+  .timez {
+    margin-left: 0;
+  }
+  .venuez {
+    margin-left: 0;
+  }
+}

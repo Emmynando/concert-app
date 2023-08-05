@@ -1,0 +1,56 @@
+.upcoming {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+
+.container {
+  border-bottom: 1px solid var(--sec-color);
+  padding-bottom: 1rem;
+  width: 30rem;
+}
+
+.up {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.sh {
+  background-color: var(--sec-color);
+  border-right: 10px solid brown;
+  padding-right: 4rem;
+  text-transform: uppercase;
+  width: 10rem;
+}
+
+.text {
+  font-size: 0.5rem;
+  text-align: right;
+}
+
+@media (width <= 768px) {
+  .upcoming {
+    height: 8rem;
+  }
+  .container {
+    border-bottom: 2px solid var(--sec-color);
+    padding-bottom: 0.5rem;
+    width: 18rem;
+  }
+  .up {
+    padding: 0.3rem;
+  }
+
+  .sh {
+    border-right: 5px solid brown;
+    padding-right: 2rem;
+    width: 8rem;
+  }
+  .text {
+    font-size: 0.4rem;
+  }
+}

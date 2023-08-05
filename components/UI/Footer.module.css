@@ -1,0 +1,119 @@
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-board {
+  width: 50%;
+}
+
+.first-item {
+  font-family: var(--sec-text);
+  font-size: 1.2rem;
+  text-align: left;
+  left: 0;
+  margin-bottom: -1.7rem;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.first-item h2 {
+  background-color: black;
+  left: 0;
+  padding: 0 0.8rem;
+  width: 40%;
+}
+
+.newsletter {
+  background-color: var(--sec-color);
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.newsletter > div {
+  color: black;
+  font-size: 0.6rem;
+}
+
+.newsletter div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter input {
+  background-color: black;
+  border-color: transparent;
+  color: white;
+  display: inline-block;
+  height: 1.5rem;
+  width: 12rem;
+}
+
+.newsletter input:focus {
+  outline: transparent;
+}
+
+.newsletter button {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-size: 0.8em;
+  font-weight: bold;
+  height: 1.5rem;
+  padding: 0.1rem;
+}
+
+.footer-board h4 {
+  text-align: center;
+}
+
+@media (width <= 768px) {
+  .first-item h2 {
+    font-size: 1rem;
+    padding: 0 0.6rem;
+    width: 60%;
+  }
+
+  .footer-board {
+    width: 80%;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 1rem 0.5rem 0.5rem 0;
+  }
+
+  .newsletter > div {
+    font-size: 0.5rem;
+  }
+
+  .newsletter div:first-child {
+    text-align: center;
+  }
+
+  .newsletter input {
+    height: 1.2rem;
+    width: 10rem;
+  }
+
+  .newsletter button {
+    font-size: 0.8em;
+    height: 1.2rem;
+    padding: 0.1rem;
+  }
+
+  .footer-board h4 {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,76 @@
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+.show-items {
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem 0rem 2rem 0rem;
+}
+
+.show-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.show-dates {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.show-month {
+  font-weight: 300;
+  width: 40%;
+  word-break: break-word;
+}
+
+.sow-title {
+  font-family: var(--sec-text);
+  font-weight: bold;
+}
+
+.show-items button {
+  background-color: transparent;
+  border: 2px solid var(--sec-color);
+  color: var(--sec-color);
+  cursor: pointer;
+  padding: 0.1rem 0.2rem;
+}
+
+.show-items button:active {
+  color: white;
+}
+
+@media (width <= 768px) {
+  .container {
+    padding: 0.5rem;
+    width: 80%;
+  }
+
+  .show-items {
+    border-bottom: 3px solid grey;
+    margin: 0.8rem;
+    padding: 1rem 0rem 1.8rem 0rem;
+  }
+  .show-dates {
+    gap: 3px;
+  }
+
+  .show-month {
+    font-weight: 200;
+    word-break: break-word;
+  }
+
+  .show-items button {
+    cursor: pointer;
+    font-size: 0.6rem;
+    padding: 0.1rem 0.2rem;
+  }
+}

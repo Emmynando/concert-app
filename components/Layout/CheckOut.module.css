@@ -1,0 +1,57 @@
+.checkout-container {
+  background-color: rgb(247, 110, 61);
+  margin: 0 auto 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  width: 43%;
+}
+
+.checkout-container .price {
+  background-color: black;
+  border-radius: 5px;
+  color: rgb(247, 110, 61);
+  padding: 0.2rem;
+}
+
+.checkout-container button {
+  border-color: transparent;
+  border-radius: 5px;
+  font-family: var(--sec-text);
+  margin-top: 0.7rem;
+  padding: 0.2rem;
+}
+
+.checkout-container button:first-child {
+  background-color: transparent;
+  border-color: white;
+}
+
+.checkout-container button:last-child {
+  background-color: black;
+  color: rgb(247, 110, 61);
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+@media (width <= 768px) {
+  .checkout-container {
+    margin: 0 auto 0.2rem;
+    padding: 1rem;
+    width: 40%;
+  }
+
+  .checkout-container h4 {
+    font-size: 1rem;
+  }
+  .checkout-container button {
+    font-family: var(--sec-text);
+    font-size: 0.55rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    padding: 0.1rem;
+  }
+  .checkout-container button:last-child {
+    font-weight: bold;
+    margin-left: 0.6rem;
+  }
+}

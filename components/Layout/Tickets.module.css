@@ -1,0 +1,93 @@
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+.table {
+  border-bottom: 2px solid var(--sec-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem 0rem 2rem 0rem;
+}
+
+.table span {
+  color: var(--sec-color);
+}
+
+.tickets {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.tickets button {
+  background-color: transparent;
+  border: 2px solid var(--btn-clr);
+  color: white;
+  font-size: 1rem;
+  padding: 0.3rem;
+  width: 1.5rem;
+}
+
+.table p {
+  font-weight: bold;
+}
+
+.tickContainer .button {
+  background-color: var(--sec-color);
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem;
+  margin-left: 49.5%;
+  margin-bottom: 0.5rem;
+}
+
+.tickets button:active {
+  background-color: #c5c5c5;
+  border-radius: 5px;
+}
+
+.tickContainer .button:active {
+  background-color: white;
+  color: var(--sec-color);
+}
+
+@media (width <=768px) {
+  .container {
+    padding: 0.5rem;
+    width: 80%;
+  }
+
+  .table {
+    border-bottom: 2px solid var(--sec-color);
+    margin: 0.5rem;
+    padding: 0.8rem 0rem 1.5rem 0rem;
+  }
+
+  .table h3 {
+    font-size: 0.9rem;
+  }
+
+  .table p,
+  .table .button {
+    font-size: 0.7rem;
+  }
+
+  .tickets button {
+    border: 1px solid var(--btn-clr);
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    width: 1.1rem;
+  }
+
+  .tickContainer .button {
+    padding: 0.3rem;
+    margin-left: 40%;
+    margin-bottom: 0.5rem;
+  }
+}

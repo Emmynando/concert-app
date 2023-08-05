@@ -1,0 +1,167 @@
+.hero {
+  background-size: 100vw 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 20rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  margin-left: -20vw;
+  margin-top: -5rem;
+  width: 30vw;
+}
+
+.hero-text h2 {
+  word-break: break-word;
+}
+
+.hero-info {
+  background-color: rgb(247, 139, 100);
+  right: 10%;
+  padding: 0.5rem;
+  position: absolute;
+  width: 5%;
+}
+
+.ticket-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  left: 10%;
+  padding: 0.7rem;
+  position: absolute;
+}
+
+.ticket-info h3 {
+  box-sizing: border-box;
+  border: 5px solid var(--btn-clr);
+  padding: 0.2rem;
+}
+
+.ticket-info h4 {
+  border-bottom: 0.4rem;
+  color: var(--btn-clr);
+  font-weight: bold;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  mix-blend-mode: multiply;
+}
+
+.titlez {
+  color: rgb(247, 139, 100);
+  font-family: var(--pri-text);
+  font-weight: bolder;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.h4:last-child .datez {
+  margin-bottom: 10rem;
+}
+.datez,
+.timez,
+.venuez {
+  background-color: black;
+  overflow: visible;
+  padding: 0.2rem;
+  white-space: nowrap;
+}
+
+.timez {
+  margin-left: 0.5rem;
+}
+.venuez {
+  margin-left: 1rem;
+}
+
+.h3 {
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+  white-space: nowrap;
+  height: 1.8rem;
+  width: 8rem;
+  margin-left: -2rem;
+  padding-left: 0.2rem;
+}
+.h3 img {
+  display: inline-block;
+  position: relative;
+  bottom: -5px;
+}
+
+@media (width <= 768px) {
+  .hero {
+    background-size: 100vw 20rem;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 18rem;
+    padding: 0.8rem;
+    /* position: relative; */
+  }
+
+  .hero-text {
+    grid-column: span 2;
+    left: 5%;
+    top: 5%;
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+    width: 80%;
+  }
+
+  .datez,
+  .timez,
+  .venuez {
+    font-size: 0.7rem;
+  }
+
+  .titlez {
+    font-size: 2.8rem;
+  }
+
+  .hero-info {
+    background-color: rgb(247, 139, 100);
+    /* right: 10%; */
+    padding: 0.5rem;
+    position: relative;
+    width: 10%;
+  }
+
+  .ticket-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    position: relative;
+    width: 9rem;
+  }
+
+  .hero-info .h4 {
+    font-size: 0.1rem;
+    margin-bottom: 0;
+  }
+
+  /* .h4:last-child .datez {
+    margin-bottom: 0;
+  } */
+}

@@ -1,0 +1,166 @@
+{
+  "concert": [
+    {
+      "id": 1,
+      "uid": "89f39579-c21f-4ff8-95a7-cba5229777ad",
+      "name": "Davido",
+      "title": "001 Concert",
+      "date": "04 Aug 2023",
+      "time": "11.00pm",
+      "venue": "Victoria Island, Lagos",
+      "images": {
+        "image1": "/davido/david1.jpg",
+        "image2": "/davido/david2.jpg",
+        "image3": "/davido/david3.jpg",
+        "image4": "/davido/david4.jpg",
+        "image5": "/davido/david5.jpg",
+        "image6": "/davido/david6.jpg"
+      },
+      "guestArtist": {
+        "image1": "/others/kizz.jpg",
+        "image2": "/others/buju.jpg",
+        "image3": "/others/fireboy.jpg"
+      },
+      "table": {
+        "regular": "Regular: 100,000",
+        "vip": "VIP: 10,000,000",
+        "round-table": "Round-Table: 100,000,000"
+      }
+    },
+    {
+      "id": 2,
+      "uid": "1e540be1-44b3-4cbb-a0eb-3dbe6d719543",
+      "name": "Wizkid",
+      "title": "Outta Shitta",
+      "date": "12 Aug 2023",
+      "time": "10.00pm",
+      "venue": "Ojuelegba, Lagos",
+      "images": {
+        "image1": "/wizkid/wiz1.jpg",
+        "image2": "/wizkid/wiz2.jpg",
+        "image3": "/wizkid/wiz3.jpg",
+        "image4": "/wizkid/wiz4.jpg",
+        "image5": "/wizkid/wiz5.jpg",
+        "image6": "/wizkid/wiz6.jpg"
+      },
+      "guestArtist": {
+        "image1": "/others/tiwa.jpg",
+        "image2": "/others/buju.jpg",
+        "image3": "/others/bella.jpg"
+      },
+      "table": {
+        "regular": "Regular: 100,000",
+        "vip": "VIP: 10,000,000",
+        "round-table": "Round-Table: 100,000,000"
+      }
+    },
+    {
+      "id": 3,
+      "uid": "e3f122da-b8ec-467f-bad7-f2eb2bea3891",
+      "name": "Rema",
+      "title": "Ravers Party",
+      "date": "22 Aug 2023",
+      "time": "8.00pm",
+      "venue": "Ekpoma, Benin",
+      "images": {
+        "image1": "/rema/rem1.jpg",
+        "image2": "/rema/rem2.jpg",
+        "image3": "/rema/rem3.jpg",
+        "image4": "/rema/rem4.jpg",
+        "image5": "/rema/rem5.jpg",
+        "image6": "/rema/rem6.jpg"
+      },
+      "guestArtist": {
+        "image1": "/others/joeboy.jpg",
+        "image2": "/others/bella.jpg",
+        "image3": "/others/fireboy.jpg"
+      },
+      "table": {
+        "regular": "Regular: 10,000",
+        "vip": "VIP: 1,000,000",
+        "round-table": "Round-Table: 5,000,000"
+      }
+    },
+    {
+      "id": 4,
+      "uid": "7cefb8a3-3f1e-453e-889f-bd6527fe6946",
+      "name": "Olamide",
+      "title": "OLIC4",
+      "date": "05 Sep 2023",
+      "time": "9.00pm",
+      "venue": "Oyingbo Center, Lagos",
+      "images": {
+        "image1": "/olamide/ola1.jpg",
+        "image2": "/olamide/ola2.jpg",
+        "image3": "/olamide/ola3.jpg",
+        "image4": "/olamide/ola4.jpg",
+        "image5": "/olamide/ola5.jpg",
+        "image6": "/olamide/ola6.jpg"
+      },
+      "guestArtist": {
+        "image1": "/others/phyno.jpg",
+        "image2": "/others/emeka.jpg",
+        "image3": "/others/fireboy.jpg"
+      },
+      "table": {
+        "regular": "Regular: 50k",
+        "vip": "VIP: 5,000,000",
+        "round-table": "Round-Table: 10,000,000"
+      }
+    },
+    {
+      "id": 5,
+      "uid": "b90029c9-5a97-45bb-af5e-bc9756d1c76e",
+      "name": "Burna Boy",
+      "title": "Love Damini",
+      "date": "17 Sep 2023",
+      "time": "8.00pm",
+      "venue": "Rumuokoro, PH",
+      "images": {
+        "image1": "/burna/burna1.jpg",
+        "image2": "/burna/burna2.jpg",
+        "image3": "/burna/burna3.jpg",
+        "image4": "/burna/burna4.jpg",
+        "image5": "/burna/burna5.jpg",
+        "image6": "/burna/burna6.jpg"
+      },
+      "guestArtist": {
+        "image1": "/others/bella.jpg",
+        "image2": "/others/ruger.jpg",
+        "image3": "/others/odumo.jpg"
+      },
+      "table": {
+        "regular": "Regular: 80,000",
+        "vip": "VIP: 8,000,000",
+        "round-table": "Round-Table: 80,000,000"
+      }
+    },
+    {
+      "id": 6,
+      "uid": "69f0abec-d75a-439a-8d26-f5b387b7bdae",
+      "name": "Asake",
+      "title": "Mr. Money",
+      "date": "30 Sep 2023",
+      "time": "8.00pm",
+      "venue": "Eko Hotels, Lagos",
+      "images": {
+        "image1": "/asake/asa1.jpg",
+        "image2": "/asake/asa2.jpg",
+        "image3": "/asake/asa3.jpg",
+        "image4": "/asake/asa4.jpg",
+        "image5": "/asake/asa5.jpg",
+        "image6": "/asake/asa6.jpg"
+      },
+      "guestArtist": {
+        "image1": "/others/kizz.jpg",
+        "image2": "/others/phyno.jpg",
+        "image3": "/others/ruger.jpg"
+      },
+      "table": {
+        "regular": "Regular: 10,000",
+        "vip": "VIP: 1,000,000",
+        "round-table": "Round-Table: 10,000,000"
+      }
+    }
+  ]
+}
